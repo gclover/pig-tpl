@@ -2,6 +2,7 @@
 -- Register libraries
 register 'lib/*.jar';
 
+-- Register python UDF 
 register 'tpl.py' using jython as exp;
 
 -- Define cmdline params
